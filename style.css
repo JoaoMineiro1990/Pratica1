@@ -1,0 +1,137 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header
+{
+    height: 250px;
+    background: url(iamgens/logo.webp) no-repeat ;
+    background-size: 17%;
+    background-position-x: 10px;
+    background-position-y: 11px;
+    background-color: lightsteelblue;
+}
+header .caixa-categoria 
+{
+    width: 25%;
+    float: right;
+    margin-right: 150px;
+    margin-top: 200px;
+}
+header .caixa-categoria input
+{
+    width: 80%;
+}
+.container2
+{
+    background-color: brown;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.container2 img
+{
+    width: 40%;
+}
+main
+{
+    margin-top: 0px;
+    background-color: blanchedalmond;
+    width: 70%;
+    float: left;
+
+    box-sizing: border-box;
+}
+.grid-container
+{    
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    column-gap: 35px;
+}
+.gri-item
+{
+    margin: 20px;
+    padding: 20px;
+    background-color:aquamarine;
+}
+.gri-item img
+{
+    margin-left: 10px;
+}
+.caixa-poste article
+{
+    display: inline-block;
+}
+aside 
+{
+    margin-top: 0px;
+    background-color: lightpink;
+    width: 30%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+aside2
+{
+    background-color: rgb(206, 57, 79);
+    height: 165px;
+    width: 30%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+footer
+{
+    background-color: yellow;
+    clear: both;
+}
+/* componente menu principal */
+.caixa-menuprincipal
+{
+    float: right;
+    padding: 30px;
+}
+.caixa-menuprincipal ul
+{
+    list-style-type: none;
+}
+.caixa-menuprincipal ul li
+{
+    display: inline-block;
+}
+.caixa-menuprincipal ul li a
+{
+    text-decoration: none;
+    color: black;
+    background-color: burlywood;
+    font-weight: bold;
+    padding: 10px;
+}
+.caixa-menuprincipal ul li a:hover
+{
+    background-color: blueviolet;
+}
+
+/* componente postagem */
+.caixa-poste
+{
+
+}
+
+/* componente categoria */
+.caixa-categoria
+{
+
+}
+
+/* componente pesquisa */
+.caixa-pesquisa
+{
+
+}
